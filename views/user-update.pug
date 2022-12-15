@@ -1,0 +1,14 @@
+doctype html
+html
+  head
+    title Update
+  body
+    h1 Update User
+    form(method="POST" action="/users/:id")
+      label(for="name") Name:
+      input(type="text" name="name" id="name")
+      label(for="email") Email:
+      input(type="text" name="email" id="email")
+      label(for="phone") Phone:
+      input(type="text" name="phone" id="phone")
+      input(type="submit" value="Submit")

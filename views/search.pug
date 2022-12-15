@@ -1,0 +1,16 @@
+doctype html
+html
+  head
+    title Search
+  body
+    h1 Search
+    form(method="GET" action="/search")
+      label(for="number") Package Number:
+      input(type="text" name="number" id="number")
+      label(for="category") Category:
+      input(type="text" name="category" id="category")
+      label(for="city") City:
+      input(type="text" name="city" id="city")
+      label(for="date") Delivery Date:
+      input(type="text" name="date" id="date")
+      input(type="submit" value="Submit")

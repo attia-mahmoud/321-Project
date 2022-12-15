@@ -1,0 +1,12 @@
+doctype html
+html
+  head
+    title Login
+  body
+    h1 Login
+    form(method="POST" action="/login")
+      label(for="email") Email:
+      input(type="text" name="email" id="email")
+      label(for="password") Password:
+      input(type="password" name="password" id="password")
+      input(type="submit" value="Submit")

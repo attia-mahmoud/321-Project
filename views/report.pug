@@ -1,0 +1,12 @@
+doctype html
+html
+  head
+    title Report
+  body
+    h1 Report
+    form(method="post" action="/report")
+      label(for="start") Start Date:
+      input(type="text" name="start" id="start")
+      label(for="end") End Date:
+      input(type="text" name="end" id="end")
+      input(type="submit" value="Submit")

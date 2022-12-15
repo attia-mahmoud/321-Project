@@ -1,0 +1,30 @@
+doctype html
+html
+  head
+    title Search Results
+  body
+    h1 Search Results
+    table
+      tr
+        th Package Number
+        th Weight
+        th Height
+        th Insurance Amount
+        th Destination
+        th Final Delivery Date
+        th Status
+        th Width
+        th Length
+        th Retail Center
+      for result in results
+        tr
+          td= result.package_number
+          td= result.Weight
+          td= result.Height
+          td= result.Insurance_amount
+          td= result.Destination
+          td= result.Date_Dy
+          td= result.status
+          td= result.Width
+          td= result.Length
+          td= result.Recieved_By
